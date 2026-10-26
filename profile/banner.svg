@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Project Mytika">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F3A5F"/>
+      <stop offset="1" stop-color="#0B1B2E"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5FA8FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5FA8FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5FA8FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <!-- a few-example network: three drawings feed one prototype that points at its answer -->
+  <g stroke="#5FA8FF" stroke-opacity="0.35" stroke-width="1.4" fill="none">
+    <path d="M820 70 L930 150"/><path d="M820 150 L930 150"/><path d="M820 230 L930 150"/>
+    <path d="M930 150 L1040 110"/><path d="M930 150 L1040 190"/>
+    <path d="M1040 110 L1130 150" stroke-opacity="0.7"/><path d="M1040 190 L1130 150" stroke-opacity="0.7"/>
+  </g>
+  <g fill="#0B1B2E" stroke="#5FA8FF" stroke-width="2">
+    <circle cx="820" cy="70" r="14"/><circle cx="820" cy="150" r="14"/><circle cx="820" cy="230" r="14"/>
+    <circle cx="930" cy="150" r="18"/><circle cx="1040" cy="110" r="14"/><circle cx="1040" cy="190" r="14"/>
+  </g>
+  <circle cx="1130" cy="150" r="20" fill="#5FA8FF"/>
+  <rect x="64" y="212" width="470" height="3" fill="url(#glow)"/>
+  <text x="64" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="9" fill="#8FC0FF">PROJECT</text>
+  <text x="62" y="180" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="3" fill="#FFFFFF">MYTIKA</text>
+  <text x="64" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" fill="#C9DDF5">Machines that learn new symbols from a handful of examples.</text>
+</svg>
