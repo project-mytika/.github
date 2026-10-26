@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" alt="Project Mytika" width="100%">
+  <img src="https://raw.githubusercontent.com/project-mytika/.github/main/profile/banner.svg" alt="Project Mytika" width="100%">
 </p>
 
 <p align="center">
